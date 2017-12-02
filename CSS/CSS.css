@@ -1,0 +1,68 @@
+#Item{
+	display:none;
+}
+
+#Rating{
+	display:none;
+}
+
+#SignOut{
+	display:none;
+}
+#AddFood{
+	display:none;
+}
+
+#PasswordCheck{
+	background: lightgray;
+}
+
+#fieldset{
+	width: 70%;
+	height: 50%;
+	margin: auto;
+}
+
+#radioStar > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+#radioStar > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+#radioStar > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+
+.deleteFood, .flagFood{
+	cursor:pointer;
+}
+
+.deleteFood{
+	color:red;
+}
+
+.starGroup i {
+	font-size: 20pt;
+}
+
+.ratingNum {
+	vertical-align: text-bottom;
+	line-height: 18pt;
+	margin-left: 4pt;
+}
+
+.submitRatingLink {
+	vertical-align: text-bottom;
+	line-height: 18pt;
+	margin-left: 4pt;
+	display: none;
+}
+
+.thankYou {
+	vertical-align: text-bottom;
+	line-height: 18pt;
+	margin-left: 4pt;
+	display: none;
+}
